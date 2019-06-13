@@ -1,0 +1,102 @@
+[
+    {
+        "id":0,
+        "img_path":"img/sabonete.png",
+        "name":"Sabonete Macadâmia Vegetal Tododia",
+        "aditional_description":"",
+        "accepted_cards":[0,1],
+        "price": 150,
+        "parcellment":[
+            {
+                "interest":false,
+                "times":2,
+                "value": 75
+            },
+            {
+                "interest":true,
+                "times":3,
+                "value": 60
+            }
+        ]
+    },
+    {
+        "id":1,
+        "img_path":"img/perfume_masc.png",
+        "name":"Natura Homem Verum",
+        "aditional_description":"",
+        "accepted_cards":[1,2],
+        "price": 180,
+        "parcellment":[
+            {
+                "interest":false,
+                "times":3,
+                "value": 60
+            },
+            {
+                "interest":true,
+                "times":6,
+                "value": 35
+            }
+        ]
+    },
+    {
+        "id":2,
+        "img_path":"img/presente_fem.png",
+        "name":"Presente Kaiak Aventura Nécessaire",
+        "aditional_description":"",
+        "accepted_cards":[0,1],
+        "price": 151,
+        "parcellment":[
+            {
+                "interest":false,
+                "times":5,
+                "value": 30.38
+            },
+            {
+                "interest":true,
+                "times":8,
+                "value": 21
+            }
+        ]
+    },
+    {
+        "id":3,
+        "img_path":"img/mascara.png",
+        "name":"Multimáscara Tint à prova D'água Aquarela",
+        "aditional_description":"",
+        "accepted_cards":[2,1],
+        "price": 349,
+        "parcellment":[
+            {
+                "interest":false,
+                "times":4,
+                "value": 87.25
+            },
+            {
+                "interest":true,
+                "times":5,
+                "value": 75
+            }
+        ]
+    },
+    {
+        "id":4,
+        "img_path":"img/base.png",
+        "name":"Base Nude Me Sérum FPS18",
+        "aditional_description":"",
+        "accepted_cards":[2,0],
+        "price": 269,
+        "parcellment":[
+            {
+                "interest":false,
+                "times":3,
+                "value": 89.67
+            },
+            {
+                "interest":true,
+                "times":5,
+                "value": 75
+            }
+        ]
+    }
+]

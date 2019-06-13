@@ -1,0 +1,223 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-inner {
+    padding: 20px;
+    box-shadow: 7px 5px 11px 8px #d4d2d2;
+    overflow: hidden;
+}
+
+
+
+.text-gradient {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #ffbb40 30%, #ff0505 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    font-weight: bold;    
+    text-align: center;
+}
+
+#logo_container {
+    display: flex;
+    justify-content: center;
+}
+
+#logo_image {
+    max-width: 150px;
+}
+
+
+
+.text-align-center {
+    text-align: center;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.texts{
+    margin-top: -180px;
+}
+
+.middle span {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: rgb(102, 103, 104);
+    font-size: 20px;
+    max-width: 60%;
+
+}
+
+.item img{
+    max-height: 200px;
+    width: auto;
+    
+}
+
+.item{
+    max-width: 250px;
+   width: 100%;
+   font-size: 12px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+a:focus{
+    text-decoration: none;
+    color:black;
+    outline: none
+    
+}
+
+a:hover{
+    text-decoration: none;
+    color:black;
+    outline: none
+    
+}
+
+.item .name{
+    border-bottom:1px solid black;
+    height: 37px;
+    overflow: hidden;
+}
+
+.item .accepted_cards img{
+    max-height: 30px;
+    height: auto;    
+}
+
+.item .accepted_cards .cards{
+   display: flex;   
+}
+
+.item .times,
+.item .value{
+    font-size: 23px;
+}
+
+.item .symbol{
+    position: absolute;
+    font-weight: bold;    
+}
+
+.item .cents{
+    position: absolute; 
+    margin-left: 5px;  
+}
+
+.item .value{
+    margin-left: 20px;
+}
+
+.item .div-vista{
+    margin-top: 20px;
+}
+
+.item .row{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#slickear .slick-track{
+    display: flex;
+    justify-content: space-between; 
+       
+}
+
+#slickear{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -380px;
+}
+
+#slickear .slick-prev:before{
+    content: '\f0d9';
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    color:#db9b30;
+    font-size: 70px;
+}
+
+#slickear .slick-next:before{
+    content: '\f0da';
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    color:#db9b30;
+    font-size: 70px;
+}
+
+.svgDiv{
+    height: 400px; 
+    width: 110%;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.svgDiv .polygon1{
+    fill:url('#MyGradient2');
+}
+
+.svgDiv .polygon2{
+    fill:url('#MyGradient');
+}
+
+.lojas-container{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#lojas{
+    max-width: 400px;
+    width: 100%;
+    border: 2px solid #db9b30;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#lojas div{
+   padding-bottom: 10px;
+}
+
+#lojas div a{    
+    color:rgb(91,91,91) !important;
+ }
+
+#lojas div:first-of-type{
+    border-bottom: 1px solid rgb(183,170,135);
+    margin-bottom: 20px;
+}
+
+.logo-laranja{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#infos{
+    text-align: justify;
+    color:rgb(91,91,91) !important;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 50px;
+}
